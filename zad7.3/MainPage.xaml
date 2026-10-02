@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zad7._3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Slider ValueChanged="ValueChanged" x:Name="Slider1" Maximum="255" Minimum="0"/>
+            <Slider ValueChanged="ValueChanged"  x:Name="Slider2" Maximum="255" Minimum="0"/>
+            <Slider ValueChanged="ValueChanged" x:Name="Slider3" Maximum="255" Minimum="0"/>
+            <Label x:Name="Label1"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

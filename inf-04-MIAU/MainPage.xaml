@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="inf_04_MIAU.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            
+            <Label 
+                FontSize="Large" 
+                HorizontalOptions="Center">
+                Powitanie
+            </Label>
+            
+            <Label 
+                x:Name="Label1" 
+                FontSize="Medium">
+                Witamy w aplikacji
+            </Label>
+
+            <Button 
+                CornerRadius="10" 
+                BackgroundColor="Red" 
+                Text="Zmień powitanie" 
+                Clicked="Zmien_Clicked">
+            </Button>
+            <Button CornerRadius="10" BackgroundColor="Red" Text="Resetuj" Clicked="Reset_Clicked"/>
+            <Label x:Name="counter1"></Label>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

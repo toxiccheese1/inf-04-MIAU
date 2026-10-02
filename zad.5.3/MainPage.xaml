@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zad._5._3.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Picker Title="Wybierz salę" x:Name="Picker">
+                <Picker.Items>
+                    <x:String>Sala A</x:String>
+                    <x:String>Sala B</x:String>
+                    <x:String>Sala C</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Ilość osób" x:Name="Label1"/>
+            <Stepper ValueChanged="Stepper_Changed" x:Name="Liczba_osob" Minimum="1" Maximum="50"/>
+            <Label Text="Wybrana Data" x:Name="Label2"/>
+            <DatePicker DateSelected="data_DateSelected" x:Name="data"/>
+            <Button Text="Zarezerwuj" BackgroundColor="LightBlue" Clicked="Button_Clicked"/>
+            <Label x:Name="Info"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

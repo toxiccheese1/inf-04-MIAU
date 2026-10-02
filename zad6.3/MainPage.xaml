@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="zad6._3.MainPage">
+    <ContentPage.Resources>
+        <Style TargetType="Button" x:Key="Button1">
+            <Setter Property="BackgroundColor" Value="blue"/>
+            <Setter Property="WidthRequest" Value="200"/>
+            <Setter Property="HeightRequest" Value="100"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+
+    </ContentPage.Resources>
+    <ScrollView>
+        <HorizontalStackLayout VerticalOptions="Start" HorizontalOptions="Center"
+            Padding="30,0"
+            Spacing="15">
+            <Button Style="{StaticResource Button1}" Clicked="Button_Plus" Text="Plus"/>
+            <Button Style="{StaticResource Button1}" Clicked="Button_Minus" Text="Minus"/>
+            <Button Style="{StaticResource Button1}" Clicked="Button_Zeruj" Text="Zeruj"/>
+            <Label x:Name="label1" FontSize="Caption"/>
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>

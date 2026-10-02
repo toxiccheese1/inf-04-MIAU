@@ -1,0 +1,43 @@
+<Solution>
+  <Project Path="inf-04-MIAU/zad1.3.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad.5.3/zad.5.3.csproj" Id="2b090632-487e-4677-9bd5-f8b803063876">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad10.2/zad10.2.csproj" Id="a9789111-da41-4dc3-9939-55fdfcc6e768">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad10.3/zad10.3.csproj" Id="9123251c-10f7-4b2d-bdd4-d46f12b59404">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad11.3/zad11.3.csproj" Id="171e85c8-18ae-4b20-b98c-2a32cc55a03f">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad12.3/zad12.3.csproj" Id="ca986f2a-beec-41e0-99d2-90488ae8fbd9" />
+  <Project Path="zad13.3/zad13.3.csproj" Id="651c3cbd-4358-4db2-802c-31a65d465aa8">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad14.2/zad14.2.csproj" Id="3080734a-25c9-4d57-a0ce-0913b109ac99" />
+  <Project Path="zad2.3/zad2.3.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad3.3/zad3.3.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad4.3/zad4.3.csproj" Id="ed0fd55c-9e8d-4985-9e26-e434c91e98e0">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad6.3/zad6.3.csproj" Id="597e02b2-d164-4ab6-b5b8-f9dfde24d3b7">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad7.3/zad7.3.csproj" Id="b171d209-e672-408f-8a9d-2316ff70cdcf">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad8.3/zad8.3.csproj" Id="755283a9-987d-4f62-8bbf-bcaccc1619da">
+    <Deploy Solution="Debug|*" />
+  </Project>
+  <Project Path="zad9.3/zad9.3.csproj" Id="73f8b76c-dab3-4c36-9561-63a5f8253089">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
